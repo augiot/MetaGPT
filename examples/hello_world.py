@@ -37,8 +37,8 @@ async def lowlevel_api_example(llm: LLM):
 async def main():
     llm = LLM()
     await ask_and_print("what's your name?", llm, "I'm a helpful AI assistant.")
-    await ask_and_print("who are you?", llm, "just answer 'I am a robot' if the question is 'who are you'")
-    await lowlevel_api_example(llm)
+    # await ask_and_print("who are you?", llm, "just answer 'I am a robot' if the question is 'who are you'")
+    # await lowlevel_api_example(llm)
 
 
 if __name__ == "__main__":
